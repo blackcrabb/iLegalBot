@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Chat</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="chat.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(19, 158, 128);">
+            <a class="navbar-brand" href="#">
+                <img src="maisn.jpg" width="80" height="80" alt="">
+            </a>
+            <a class="navbar-brand" href="./index.html" style="color: azure;"><h1><b>iLegalBot</b></h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown" style="font-size: 25px;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Category
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Matrimonial</a>
+                      <a class="dropdown-item" href="#">Contract attorney.</a>
+                      <a class="dropdown-item" href="#">Corporate lawyer.</a>
+                      <a class="dropdown-item" href="#">Immigration Lawyer</a>
+                      <a class="dropdown-item" href="#">Bankruptcy Lawyer</a>
+                      <a class="dropdown-item" href="#">Estate Planning Lawyer</a>
+                      <a class="dropdown-item" href="#">Tax Lawyer</a>
+                      <a class="dropdown-item" href="#">Criminal Lawyer</a>
+                    </div>
+                  </li>
+                  <li class="nav-item active" style="font-size: 25px;">
+                    <a class="nav-link" href="#">Chats<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item" style="font-size: 25px;">
+                    <a class="nav-link" href="#">Free Advice</a>
+                  </li>
+                  <li class="nav-item" style="font-size: 25px;">
+                    <a class="nav-link" href="#">Notifications</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <div id="chat-container">
+            <div id="search-container">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div id="conversation-list">
+                <div class="conversation active">
+                    <img src="try.png" style="height: 50px;width: 50px;" alt="Daryl Duckmanton" >
+                    <div class="title-text">
+                        Daryl Duckmanton
+                    </div>
+                    <div class="created-date">
+                        Apr 16
+                    </div>
+                    <div class="conversation-message">
+                        I am looking at it
+                    </div>
+                </div>
+                <div class="conversation ">
+                    <img src="girl.jpg" style="height: 50px;width: 50px;" alt="Ruth Bader Ginsburg" >
+                    <div class="title-text">
+                        Ruth Bader Ginsburg
+                    </div>
+                    <div class="created-date">
+                        Apr 18
+                    </div>
+                    <div class="conversation-message">
+                        send me your case details
+                    </div>
+                </div>
+            </div>
+            <div id="new-message-container">
+                <a href="#">+</a>
+            </div>
+            <div id="chat-title">
+                <span> Daryl Duckmanton</span>
+                <img src="islocker.jpg" alt="Locker">
+            </div>
+            <div id="chat-message-list">
+                <div class="message-row you-message">
+                    <div class="message-text ">Sent the pin to mail</div>
+                    <div class="message-time">Apr 16</div>
+                </div>
+                <div class="message-row other-message">
+                    <div class="message-text">Ok then</div>
+                    <div class="message-time">Apr 16</div>
+                </div>
+            </div>
+            <div id="chat-form">
+                <img src="attach.jpg" alt="Add Attachment">
+                <input type="text" placeholder="type a message">
+            </div>
+        </div>
+    </body>
+</html>
