@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+body{
+  background-image: url(./like.jpg);
+  background-size: cover;
+}
+
+.row{
+    
+    display: flex;
+    padding: 5px ;
+    justify-content: space-between;
+}

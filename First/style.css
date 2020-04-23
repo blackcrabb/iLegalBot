@@ -1,6 +1,8 @@
 
-div{
+.container{
     background-color: rgb(0, 128, 100);
+    display: flex;
+    justify-content: space-evenly;
 }
 .row{
     justify-content: end;
@@ -16,12 +18,3 @@ h1{
     color:black;
 }
 
-button {
-    background-color:rgb(16, 143, 100);
-    padding: 12px;
-    margin: auto;
-    text-align: center;
-    float: inline-end;
-    border: 5px;
-    border-color: beige;
-}
