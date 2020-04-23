@@ -1,0 +1,27 @@
+
+div{
+    background-color: rgb(0, 128, 100);
+}
+.row{
+    justify-content: end;
+    display: inline-block;
+}
+
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:black;
+}
+
+button {
+    background-color:rgb(16, 143, 100);
+    padding: 12px;
+    margin: auto;
+    text-align: center;
+    float: inline-end;
+    border: 5px;
+    border-color: beige;
+}

@@ -1,0 +1,17 @@
+body{
+    background-image: url("./like.jpg");
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+
+li{
+    float: left;
+}
+
+.card{
+    opacity: 0.7;
+}

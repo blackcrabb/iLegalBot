@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Usersignin</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: rgb(19, 158, 128);">
+            <a class="navbar-brand" href="#">
+                <img src="maisn.jpg" width="80" height="80" alt="">
+            </a>
+            <a class="navbar-brand" href="./index.html" style="color: azure;"><h1><b>iLegalBot</b></h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <br>
+        <h1 style="font-size: 50px;text-align: center;">Sign In </h1>
+        <h5 style="text-align: center;">as user</h5>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                          <h1 style="font-weight: bold;">Terms an Conditions</h1>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">1. Your Aadhar no. will be verified</li>
+                          <li class="list-group-item">2. Documents must be pinned</li>
+                          <li class="list-group-item">3. Your bank details will be taken that 
+                              is the minimum cost for a one on one chat</li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                          </div>
+                      <div class="form-group col-md-5">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                      </div>
+                      <div class="form-group col-md-5">
+                        <label for="dob">Date Of Birth</label>
+                        <input type="date" class="form-control" id="dob" placeholder="Date Of Birth">
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                          </div>
+                          <div class="form-group col-md-5">
+                            <label for="confirmPassword4"> Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword4" placeholder="Confirm Password">
+                          </div>
+                    </div>
+                    <div class="form-group ">
+                      <label for="addhar">AADHAR NO.</label>
+                      <input type="text" class="form-control" id="aadhar" placeholder="12 digit no.">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1" style="float: left;">Signature</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      </div>
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            I agree to Terms and conditions
+                          </label>
+                        </div>
+                      </div>
+                      <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#staticBackdrop">
+                        Sign In
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="staticBackdropLabel">Sign In</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              Confirmation sent to you email.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </form>
+            </div>
+          </div>
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>
