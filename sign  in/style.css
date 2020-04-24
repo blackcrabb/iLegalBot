@@ -1,3 +1,8 @@
+ body{
+     background-image: url(./backgr.jpg);
+     background-size: cover;
+ }
+
 .card{
     text-align: center;
     height: max-content;
